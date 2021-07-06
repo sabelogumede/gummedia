@@ -15,7 +15,10 @@
         "skipDefaultLibCheck": true,
         "baseUrl": ".",
         "paths": {
-            "@gummedia/ui": ["libs/ui/src/index.ts"]
+            "@gummedia/orders": ["libs/orders/src/index.ts"],
+            "@gummedia/products": ["libs/products/src/index.ts"],
+            "@gummedia/ui": ["libs/ui/src/index.ts"],
+            "@gummedia/users": ["libs/users/src/index.ts"]
         }
     },
     "exclude": ["node_modules", "tmp"]
