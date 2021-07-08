@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { Routes, RouterModule } from '@angular/router';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { ShellComponent } from './shared/shell/shell.component';
 import { SidearComponent } from './shared/sidear/sidear.component';
@@ -23,7 +23,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [AppComponent, DashboardComponent, ShellComponent, SidearComponent],
-  imports: [BrowserModule, RouterModule.forRoot(routes, { initialNavigation: 'enabledBlocking' })],
+  imports: [BrowserModule, RouterModule.forRoot(routes, { initialNavigation: 'enabled' })],
   providers: [],
   bootstrap: [AppComponent]
 })

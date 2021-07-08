@@ -1,4 +1,5 @@
 //Base
+@import '~normalize.css';
 @import './base/colors.scss';
 @import './base/fonts.scss';
 @import './base/mixins.scss';
@@ -17,7 +18,12 @@
 @import '~primeflex/primeflex.css';
 
 
+//shared
+@import './apps/admin/shell.scss';
+
 //Pages
+// @import './apps/shop/pages/home-page.scss';
+// @import './apps/shop/pages/product-list-page.scss';
 
 
 //Libs
