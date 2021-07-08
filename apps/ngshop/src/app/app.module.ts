@@ -9,7 +9,7 @@ import { ProductListComponent } from './pages/product-list/product-list.componen
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 // ui lib module import -  using the path defined inside the tsconfig.base.json and in lib index.ts as an export
-import { UiModule } from '@gummedia/ui'
+import { UiModule } from '@gummedia/ui';
 //
 import { AccordionModule } from 'primeng/accordion';
 
