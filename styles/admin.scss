@@ -3,4 +3,22 @@
 @import './base/fonts.scss';
 @import './base/mixins.scss';
 @import './base/configuration.scss';
+
+// boothstrap 3rd library import cdn
+// @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
+
+// npm installed bootstap library
+// @import '~bootstrap/scss/bootstrap.scss';
+
+//npm installed primeng + primeicons Libraries
+@import '~primeicons/primeicons.css';
+@import '~primeng/resources/themes/saga-blue/theme.css';
+@import '~primeng/resources/primeng.min.css';
+@import '~primeflex/primeflex.css';
+
+
 //Pages
+
+
+//Libs
+@import './libs/ui/ui.scss';
