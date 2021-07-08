@@ -1,5 +1,6 @@
 import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
@@ -9,6 +10,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 // ui lib module import -  using the path defined inside the tsconfig.base.json and in lib index.ts as an export
 import { UiModule } from '@gummedia/ui'
+//
+import { AccordionModule } from 'primeng/accordion';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -17,7 +20,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [AppComponent, HomePageComponent, ProductListComponent, HeaderComponent, FooterComponent],
-  imports: [BrowserModule, RouterModule.forRoot(routes), UiModule],
+  imports: [BrowserModule, BrowserAnimationsModule, RouterModule.forRoot(routes), UiModule, AccordionModule],
 
   providers: [],
   bootstrap: [AppComponent],

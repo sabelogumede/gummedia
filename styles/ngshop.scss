@@ -2,15 +2,16 @@
 @import './base/colors.scss';
 @import './base/fonts.scss';
 @import './base/mixins.scss';
+// move config import under primeng imports to override font
 @import './base/configuration.scss';
 
 // boothstrap 3rd library import cdn
 // @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
 
-// npm installed bootstap
+// npm installed bootstap library
 // @import '~bootstrap/scss/bootstrap.scss';
 
-//Libraries
+//npm installed primeng + primeicons Libraries
 @import '~primeicons/primeicons.css';
 @import '~primeng/resources/themes/saga-blue/theme.css';
 @import '~primeng/resources/primeng.min.css';
